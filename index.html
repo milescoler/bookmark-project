@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Site Bookmarker</title>
+
+    <!-- link to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>Site Bookmarker</h1>
+
+    <div class="container">
+        <!-- form to enter info -->
+        <form class="form" action="#">
+            <div class="input-field">
+                <label for="site_name">Name</label>
+                <input name="site_name" type="text"
+                        placeholder="site name">
+            </div>
+
+            <div class="input-field">
+                <label for="url">URL</label>
+                <input name="url" type="text"
+                        placeholder="https://www.example.com">
+            </div>
+
+            <button class="save_button">Save</button>
+        </form>
+
+        <!-- section for bookmarks -->
+        <h2>Saved Bookmarks</h2>
+
+        <div class="bookmarks"></div>
+    </div>
+
+    <!-- link to JavaScript file -->
+    <script src="./main.js"></script>
+</body>
+</html>
